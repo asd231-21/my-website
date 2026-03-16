@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tickets & Registration | Morija Festival</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="brand" href="index.html">Morija Fest</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header style="padding-top: 36px;">
+      <h1 class="section-title">Tickets & Registration</h1>
+      <p class="lead-text">Secure your spot at Lesotho&apos;s biggest cultural event. Choose the ticket that suits your trip, and complete the registration form below.</p>
+    </header>
+
+    <section>
+      <h2>Ticket Options</h2>
+      <div class="grid grid-3" style="margin-top: 18px;">
+        <div class="card">
+          <h3>Day Pass</h3>
+          <p><strong>M160</strong> </p>
+          <p>Access to all daytime activities, workshops, and food stalls. Valid for one day.</p>
+          <p><strong>Recommended for:</strong> Local visitors and families.</p>
+        </div>
+        <div class="card">
+          <h3>Festival Pass</h3>
+          <p><strong>M360</strong> </p>
+          <p>Full access to all festival days, evening concerts, and performances.</p>
+          <p><strong>Recommended for:</strong> Tourists and international guests.</p>
+        </div>
+        <div class="card">
+          <h3>VIP Experience</h3>
+          <p><strong>M720</strong> </p>
+          <p>Includes priority seating, a guided tour, and a welcome gift pack.</p>
+          <p><strong>Recommended for:</strong> Groups and sponsors.</p>
+        </div>
+      </div>
+
+      <div class="banner-note">
+        <p><strong>Note:</strong> All ticket prices are listed in Lesotho Maloti (M). Payment is accepted via bank transfer and mobile money. After registration, our team will contact you with confirmation details.</p>
+      </div>
+    </section>
+
+    <section style="margin-top: 44px;">
+      <h2>Register Now</h2>
+      <p>Fill out the form so we can reserve your tickets and send arrival information.</p>
+
+      <form action="#" method="post">
+        <label>
+          Full name
+          <input required type="text" name="fullName" placeholder="e.g. Naleli Mokhethi" />
+        </label>
+
+        <label>
+          Email address
+          <input required type="email" name="email" placeholder="e.g. naleli@example.com" />
+        </label>
+
+        <label>
+          Phone number
+          <input required type="tel" name="phone" placeholder="+266 5704 2016" />
+        </label>
+
+        <label>
+          Ticket type
+          <select name="ticketType" required>
+            <option value="">Choose a ticket</option>
+            <option value="day">Day Pass</option>
+            <option value="festival">Festival Pass</option>
+            <option value="vip">VIP Experience</option>
+          </select>
+        </label>
+
+        <label>
+          How many tickets?
+          <input required type="number" name="quantity" min="1" max="12" value="1" />
+        </label>
+
+        <label>
+          Notes / special requests
+          <textarea name="notes" placeholder="E.g. dietary needs, accessibility requests"></textarea>
+        </label>
+
+        <button class="btn" type="submit">Submit registration</button>
+      </form>
+
+      <p class="lead-text" style="margin-top: 22px;">After submitting, you will receive a confirmation email with payment instructions. Have questions? Call +266 5704 2016 or <a href="contact.html">contact us</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-list">
+            <li>📞 +266 5704 2016</li>
+            <li>✉️ <a href="mailto:info@morijafest.ls">info@morijafest.ls</a></li>
+            <li>📍 Morija Cultural Village, Leribe</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Social</h3>
+          <ul class="footer-list">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-meta">© 2026 Morija Arts &amp; Cultural Festival • Designed for Lesotho tourism.</p>
+    </div>
+  </footer>
+</body>
+</html>
